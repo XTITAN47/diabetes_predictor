@@ -49,3 +49,36 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/diabetes-prediction.git
    cd diabetes-prediction
+
+2. Install the required dependencies:
+
+pip install -r requirements.txt
+
+3. Run the Streamlit app:
+
+streamlit run Diabetes_Prediction_web_app.py
+
+4. Access the app:
+Open your browser and go to http://localhost:8501 to interact with the app.
+
+<h2>Usage</h2>
+1.Input Data: Enter the required health metrics in the input fields provided by the web app.<br>
+2.Get Prediction: Click on the "Diabetes Test Result" button to get the prediction.<br>
+3.Result: The app will display whether the person is diabetic or not based on the input data.<br>
+
+<h2>Contributing</h2><br>
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.<br>
+
+1.Fork the repository.<br>
+2.Create a new branch (git checkout -b feature/YourFeatureName).<br>
+3.Commit your changes (git commit -m 'Add some feature').<br>
+4.Push to the branch (git push origin feature/YourFeatureName).<br>
+5.Open a pull request.<br>
+
+<h2>License</h2><br>
+This project is licensed under the MIT License. See the LICENSE file for details.<br>
+
+<h2>Acknowledgments</h2><br>
+The dataset used in this project is from the PIMA Diabetes Dataset.<br>
+
+Special thanks to the developers of Streamlit, Scikit-learn, and XGBoost for their amazing libraries.
